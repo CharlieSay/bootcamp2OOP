@@ -19,7 +19,7 @@ public class SuperVillianTest {
     public void testForEncounterSuperVillainEncountersSuperHero() {
         SuperHero spiderMan = new SuperHero("Spiderman","Ya Nan",new webSlinging());
         SuperVillian evilMan = new SuperVillian("Kermit the frog","KMF",new fireBall());
-        assertThat(evilMan.encounter(spiderMan), is("Kermit the frog battles Spiderman using Web Slinging"));
+        assertThat(evilMan.encounter(spiderMan), is("Kermit the frog battles Spiderman using Fire Ball"));
     }
     @Test
     public void testForEncounterSuperVillainEncountersSuperVillain() {
